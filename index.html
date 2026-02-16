@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man Cyberpunk Edition</title>
+    <link rel="stylesheet" href="pacman.css">
+    <script src="pacman.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        
+        <div id="hud">
+            <div class="hud-item left-align">
+                <span class="label">TIME</span>
+                <span id="time-display" class="value cyan-text">00:00.00</span>
+            </div>
+            
+            <div class="hud-item center-align">
+                <span id="lives-display" class="value emoji-text">🟡🟡🟡</span> 
+            </div>
+            
+            <div class="hud-item center-align">
+                <span id="score-display" class="value giant-score cyan-text">0</span>
+            </div>
+            
+            <div class="hud-item center-align">
+                <span class="value emoji-text">💣💣💣</span> 
+            </div>
+            
+            <div class="hud-item right-align">
+                <span class="label">BEST RECORD</span>
+                <span id="high-score-display" class="value yellow-text">0</span>
+            </div>
+        </div>
+
+        <canvas id="board"></canvas>
+        
+    </div>
+</body>
+</html>
